@@ -1,4 +1,4 @@
-# AgentVision
+# Agent Vision
 
 See exactly what your AI coding agents can see.
 
