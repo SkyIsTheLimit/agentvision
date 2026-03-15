@@ -1,0 +1,37 @@
+{
+  "name": "@agentvision/cli",
+  "version": "0.0.1",
+  "description": "See exactly what your AI coding agents can see — inspect, compare, and validate agent configurations",
+  "type": "module",
+  "bin": {
+    "agentvision": "./dist/bin.js"
+  },
+  "files": [
+    "dist/",
+    "README.md"
+  ],
+  "keywords": [
+    "ai",
+    "agent",
+    "coding-agent",
+    "claude",
+    "cursor",
+    "copilot",
+    "developer-tools",
+    "cli"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@agentvision/core": "workspace:*",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.0"
+  }
+}

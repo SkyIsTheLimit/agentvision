@@ -1,0 +1,11 @@
+{
+  "name": "@agentvision/studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "echo 'Studio not yet implemented'",
+    "dev": "echo 'Studio not yet implemented'",
+    "typecheck": "echo 'Studio not yet implemented'"
+  }
+}
