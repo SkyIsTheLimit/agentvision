@@ -1,6 +1,6 @@
 {
   "name": "@agentvision/cli",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "See exactly what your AI coding agents can see — inspect, compare, and validate agent configurations",
   "type": "module",
   "bin": {
