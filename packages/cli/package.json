@@ -10,6 +10,11 @@
     "dist/",
     "README.md"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agentvision/agentvision.git",
+    "directory": "packages/cli"
+  },
   "keywords": [
     "ai",
     "agent",
@@ -33,5 +38,9 @@
     "@types/node": "^25.5.0",
     "tsup": "^8.4.0",
     "typescript": "^5.7.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
