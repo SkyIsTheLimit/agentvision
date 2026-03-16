@@ -12,8 +12,10 @@ AgentVision gives you that picture.
 
 ## How to Run
 
-````bash
+```bash
 npx @agentvision/cli
+```
+
 You can also install AgentVision globally for a convenient CLI command:
 
 ```bash
