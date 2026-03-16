@@ -12,9 +12,21 @@ AgentVision gives you that picture.
 
 ## How to Run
 
-```bash
+````bash
 npx @agentvision/cli
+You can also install AgentVision globally for a convenient CLI command:
+
+```bash
+npm install -g @agentvision/cli
+````
+
+Or add an alias for easier access:
+
+```bash
+alias agentvision="npx @agentvision/cli"
 ```
+
+````
 
 Requires Node.js 20+.
 
@@ -32,7 +44,7 @@ agentvision scan --local-only
 
 # Only global/user-level configs
 agentvision scan --global-only
-```
+````
 
 Example output:
 
